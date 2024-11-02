@@ -20,9 +20,11 @@ h1{
     font-size: 32px;
 }
 
+
 h2{
     color: #faa67c;
     font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -34,7 +36,7 @@ select{
     border: none;
     border-radius: 8px;
     padding: 8px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:monospace;
     font-size: 18px;
     background: rgba(249, 249, 236, 0.505);
     color: #faa67c;
@@ -59,6 +61,7 @@ select{
 
 .date{
     opacity: 0.5;
+    font-family: monospace;
     font-size: 16px;
 }
 
