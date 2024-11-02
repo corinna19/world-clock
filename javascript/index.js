@@ -18,6 +18,17 @@ let newYorkTime = moment().tz("America/New_York");
 newYorkDateElement.innerHTML = newYorkTime.format("dddd, Do MMMM YYYY");
 newYorkTimeElement.innerHTML = newYorkTime.format("HH:mm:ss [<small>]A[</small>]"
 );
+
+
+//Maldives
+let maldivesElement = document.querySelector("#maldives");
+let maldivesDateElement = maldivesElement.querySelector(".date");
+let maldivesTimeElement = maldivesElement.querySelector(".time");
+let maldivesTime = moment().tz("Indian/Maldives");
+
+maldivesDateElement.innerHTML = maldivesTime.format("dddd, Do MMMM YYYY");
+maldivesTimeElement.innerHTML = maldivesTime.format("HH:mm:ss [<small>]A[</small>]"
+);
 }
 
 function updateCity(event) {
@@ -36,6 +47,7 @@ function updateCity(event) {
     </div>
     <div class="time">${cityTime.format("HH:mm:ss")}<small>${cityTime.format("A")}</small></div>
 </div>
+<a href="index.html">Back<a>
 `;
     }
 
